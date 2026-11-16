@@ -1,0 +1,3 @@
+# Netlify serves the browser version of the chatbot (built by `python export_web.py`).
+[build]
+  publish = "web"

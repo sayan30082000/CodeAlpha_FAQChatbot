@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ store_name }} FAQ Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="chat">
+    <header class="chat-header">
+      <div class="avatar" aria-hidden="true">🤖</div>
+      <div>
+        <h1>{{ store_name }} Assistant</h1>
+        <p class="online">● Online &middot; answers questions from our FAQ</p>
+      </div>
+    </header>
+
+    <section id="messages" class="messages" aria-live="polite">
+      <div class="msg bot">
+        <div class="bubble">Hi! 👋 I'm the {{ store_name }} FAQ assistant. Ask me about orders, shipping, payments, returns or your account.</div>
+      </div>
+      <div class="chips">
+        {% for q in popular %}
+        <button class="chip" type="button">{{ q }}</button>
+        {% endfor %}
+      </div>
+    </section>
+
+    <form id="form" class="composer" autocomplete="off">
+      <input id="message" type="text" maxlength="500" placeholder="Type your question..." aria-label="Your question" autofocus>
+      <button type="submit" aria-label="Send">Send</button>
+    </form>
+  </main>
+  <p class="credit">NLTK preprocessing + TF-IDF cosine similarity &middot; CodeAlpha AI Internship &mdash; Task 2</p>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

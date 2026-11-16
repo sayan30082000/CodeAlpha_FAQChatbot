@@ -1,0 +1,278 @@
+{
+  "store_name": "ShopEase",
+  "description": "Customer-support FAQs for ShopEase, a (fictional) online store selling electronics, fashion and home products.",
+  "faqs": [
+    {
+      "id": "place_order",
+      "category": "Orders",
+      "question": "How do I place an order?",
+      "alternatives": ["How can I buy a product?", "What are the steps to purchase something?", "How to order from your website?"],
+      "answer": "Browse or search for the product you want, choose the size/colour if needed and click \"Add to Cart\". When you're ready, open your cart, click \"Checkout\", enter your delivery address, choose a payment method and confirm. You'll receive an order confirmation email right away."
+    },
+    {
+      "id": "cancel_order",
+      "category": "Orders",
+      "question": "Can I modify or cancel my order?",
+      "alternatives": ["How do I cancel my order?", "I want to change my order", "Can I edit an order after placing it?"],
+      "answer": "Yes — as long as the order has not been shipped yet. Go to My Account → Orders, open the order and click \"Cancel\" or \"Edit\". If the order is already packed or shipped, you can refuse the delivery or start a return once it arrives."
+    },
+    {
+      "id": "track_order",
+      "category": "Orders",
+      "question": "How do I track my order?",
+      "alternatives": ["Where is my order?", "What is my order status?", "How can I track my package?", "My parcel has not arrived yet"],
+      "answer": "Once your order ships you'll get an email and SMS with a tracking number. You can also go to My Account → Orders and click \"Track\" to see the live status of your package."
+    },
+    {
+      "id": "guest_checkout",
+      "category": "Orders",
+      "question": "Do I need an account to place an order?",
+      "alternatives": ["Can I buy without signing up?", "Is guest checkout available?", "Do I have to register to order?"],
+      "answer": "No, you can check out as a guest. Creating an account is optional but lets you track orders, save addresses and get faster checkout next time."
+    },
+    {
+      "id": "payment_methods",
+      "category": "Payments",
+      "question": "What payment methods do you accept?",
+      "alternatives": ["How can I pay?", "Do you accept credit cards?", "Can I pay with PayPal?", "Which cards do you accept?"],
+      "answer": "We accept Visa, Mastercard and American Express credit/debit cards, PayPal, popular mobile wallets, and cash on delivery in selected areas."
+    },
+    {
+      "id": "payment_security",
+      "category": "Payments",
+      "question": "Is it safe to use my card on your website?",
+      "alternatives": ["Is my card information secure?", "Is payment on your site safe?", "Do you store my card details?"],
+      "answer": "Yes. All payments are processed over an encrypted (SSL) connection by a PCI-DSS compliant payment provider. ShopEase never stores your full card number."
+    },
+    {
+      "id": "payment_declined",
+      "category": "Payments",
+      "question": "Why was my payment declined?",
+      "alternatives": ["My payment failed", "My card was declined", "I can't complete the payment"],
+      "answer": "Payments are usually declined because of a wrong card number/CVV/expiry date, insufficient balance, or your bank blocking online payments. Please double-check the details, try another method, or contact your bank. You are not charged for a failed payment."
+    },
+    {
+      "id": "cash_on_delivery",
+      "category": "Payments",
+      "question": "Do you offer cash on delivery?",
+      "alternatives": ["Can I pay when the product arrives?", "Is COD available?", "Pay cash at delivery"],
+      "answer": "Yes, cash on delivery is available in most major cities for orders up to $500. If COD is available for your address, you'll see it as a payment option at checkout."
+    },
+    {
+      "id": "shipping_time",
+      "category": "Shipping",
+      "question": "How long does shipping take?",
+      "alternatives": ["When will my order arrive?", "What is the delivery time?", "How many days for delivery?", "How fast do you deliver?"],
+      "answer": "Standard shipping takes 3–5 business days. Express shipping delivers in 1–2 business days in major cities. Orders placed before 2 PM ship the same day."
+    },
+    {
+      "id": "shipping_cost",
+      "category": "Shipping",
+      "question": "How much does shipping cost?",
+      "alternatives": ["What is the delivery charge?", "Do you offer free shipping?", "Shipping fee"],
+      "answer": "Shipping is free on orders over $50. Below that, standard shipping costs $4.99 and express shipping costs $9.99."
+    },
+    {
+      "id": "international_shipping",
+      "category": "Shipping",
+      "question": "Do you ship internationally?",
+      "alternatives": ["Do you deliver to other countries?", "Is worldwide shipping available?", "Can you ship abroad?", "Do you deliver outside the country?", "Can you deliver to Canada, the UK, Australia or India?", "Do you ship to Canada or the USA?", "International delivery"],
+      "answer": "Yes, we ship to more than 40 countries. International delivery takes 7–14 business days, and shipping costs plus any customs duties are shown at checkout."
+    },
+    {
+      "id": "change_address",
+      "category": "Shipping",
+      "question": "Can I change my delivery address?",
+      "alternatives": ["I entered the wrong address", "How do I update the shipping address of my order?"],
+      "answer": "You can change the address from My Account → Orders until the order is shipped. After it ships, contact support and we'll try to redirect the package with the courier."
+    },
+    {
+      "id": "missed_delivery",
+      "category": "Shipping",
+      "question": "What happens if I'm not home during delivery?",
+      "alternatives": ["I missed my delivery", "The courier came when I was out", "Nobody was home to receive the package"],
+      "answer": "The courier will call you and attempt delivery up to 3 times. If all attempts fail, the package is returned to us and we'll contact you to reschedule or refund the order."
+    },
+    {
+      "id": "return_policy",
+      "category": "Returns & Refunds",
+      "question": "What is your return policy?",
+      "alternatives": ["Can I return an item?", "How many days do I have to return a product?", "Do you accept returns?"],
+      "answer": "You can return most items within 30 days of delivery, as long as they are unused and in their original packaging. Underwear, personal-care items and opened software can't be returned for hygiene/licensing reasons."
+    },
+    {
+      "id": "how_to_return",
+      "category": "Returns & Refunds",
+      "question": "How do I return an item?",
+      "alternatives": ["What is the return process?", "How can I send a product back?", "Steps to return an order"],
+      "answer": "Go to My Account → Orders, select the item and click \"Return\". Choose a reason, print the prepaid return label and drop the package at any courier point — or schedule a free pickup."
+    },
+    {
+      "id": "refund_time",
+      "category": "Returns & Refunds",
+      "question": "When will I get my refund?",
+      "alternatives": ["How long does a refund take?", "I haven't received my money back", "Refund status"],
+      "answer": "Once we receive and check your return (usually within 2 days), the refund is issued to your original payment method. Card and PayPal refunds take 5–7 business days to appear; cash-on-delivery orders are refunded to your ShopEase wallet or bank account."
+    },
+    {
+      "id": "exchange",
+      "category": "Returns & Refunds",
+      "question": "Can I exchange a product for a different size or colour?",
+      "alternatives": ["How do I exchange an item?", "I need a different size", "Can I swap my product?"],
+      "answer": "Yes. Start a return and choose \"Exchange\" as the option, then pick the new size or colour. We'll ship the replacement as soon as the original item is picked up — exchanges are free."
+    },
+    {
+      "id": "damaged_item",
+      "category": "Returns & Refunds",
+      "question": "What should I do if I receive a damaged or wrong item?",
+      "alternatives": ["My product arrived broken", "I got the wrong item", "The package was damaged"],
+      "answer": "We're sorry about that! Please contact support within 48 hours of delivery with your order number and a photo of the item. We'll send a free replacement or a full refund — you won't pay for return shipping."
+    },
+    {
+      "id": "warranty",
+      "category": "Products",
+      "question": "Do your products come with a warranty?",
+      "alternatives": ["Is there a warranty on electronics?", "What is the warranty period?", "My device stopped working"],
+      "answer": "All electronics come with the manufacturer's warranty (usually 12 months). The warranty card and invoice are included in the box. For warranty claims, contact the brand's service centre or reach out to us and we'll help."
+    },
+    {
+      "id": "authentic_products",
+      "category": "Products",
+      "question": "Are your products original?",
+      "alternatives": ["Are the products genuine?", "Do you sell fake products?", "Are your items authentic?"],
+      "answer": "Yes, 100%. We source directly from brands and authorised distributors, and every product is checked before shipping."
+    },
+    {
+      "id": "size_guide",
+      "category": "Products",
+      "question": "How do I know which size to choose?",
+      "alternatives": ["Do you have a size chart?", "Which size will fit me?", "Size guide"],
+      "answer": "Every clothing and shoe product page has a \"Size Guide\" link with exact measurements. If you're between two sizes we recommend the larger one — and exchanges are free if it doesn't fit."
+    },
+    {
+      "id": "restock",
+      "category": "Products",
+      "question": "Will an out-of-stock item be restocked?",
+      "alternatives": ["When will this product be available again?", "The item is sold out", "Notify me when it's back in stock"],
+      "answer": "Most popular items are restocked within 2–3 weeks. Click \"Notify me\" on the product page and we'll email you as soon as it's back in stock."
+    },
+    {
+      "id": "bulk_orders",
+      "category": "Products",
+      "question": "Can I buy in bulk or wholesale?",
+      "alternatives": ["Do you offer corporate orders?", "Wholesale prices", "I want to order a large quantity"],
+      "answer": "Yes! For orders of 20+ units, email business@shopease.example with the products and quantities and our team will send you a quote with bulk discounts."
+    },
+    {
+      "id": "discounts",
+      "category": "Promotions",
+      "question": "Do you have any discount codes or promotions?",
+      "alternatives": ["Are there any coupons?", "Is there a sale going on?", "How can I get a discount?"],
+      "answer": "Subscribe to our newsletter to get 10% off your first order. We also run seasonal sales and post exclusive coupon codes on our social media pages."
+    },
+    {
+      "id": "promo_not_working",
+      "category": "Promotions",
+      "question": "Why isn't my promo code working?",
+      "alternatives": ["My coupon code is invalid", "The discount code was not applied", "Promo code error"],
+      "answer": "Promo codes may have expired, have a minimum order value, or apply only to certain products. Check the code's terms, make sure it's typed exactly (codes are case-sensitive) and that only one code is used per order."
+    },
+    {
+      "id": "gift_cards",
+      "category": "Promotions",
+      "question": "Do you offer gift cards?",
+      "alternatives": ["Can I buy a gift voucher?", "How do gift cards work?"],
+      "answer": "Yes, digital gift cards from $10 to $500 are available on our Gift Cards page. They're delivered by email instantly and are valid for 12 months."
+    },
+    {
+      "id": "create_account",
+      "category": "Account",
+      "question": "How do I create an account?",
+      "alternatives": ["How do I sign up?", "How can I register?", "Make a new account"],
+      "answer": "Click \"Sign Up\" at the top of the page and register with your email address or phone number, or sign in with Google. It takes less than a minute."
+    },
+    {
+      "id": "forgot_password",
+      "category": "Account",
+      "question": "I forgot my password. How do I reset it?",
+      "alternatives": ["I can't log in to my account", "Reset password", "Forgot my login details"],
+      "answer": "On the login page click \"Forgot password?\", enter your email or phone number and we'll send you a reset link. The link is valid for 30 minutes."
+    },
+    {
+      "id": "update_account",
+      "category": "Account",
+      "question": "How do I update my account details?",
+      "alternatives": ["How do I change my email address?", "Change my phone number", "Edit my profile"],
+      "answer": "Log in and go to My Account → Profile. There you can update your name, email, phone number, saved addresses and password."
+    },
+    {
+      "id": "delete_account",
+      "category": "Account",
+      "question": "How do I delete my account?",
+      "alternatives": ["Close my account", "Remove my account permanently"],
+      "answer": "Go to My Account → Settings → Delete Account, or email support. Your account and personal data are removed within 7 days; order records required by law are kept securely."
+    },
+    {
+      "id": "privacy",
+      "category": "Account",
+      "question": "Is my personal information safe with you?",
+      "alternatives": ["How do you use my data?", "Do you share my information?", "Privacy policy"],
+      "answer": "Yes. We only use your data to process orders and improve your experience, and we never sell it to third parties. See our Privacy Policy for full details."
+    },
+    {
+      "id": "unsubscribe",
+      "category": "Account",
+      "question": "How do I unsubscribe from marketing emails?",
+      "alternatives": ["Stop sending me emails", "Unsubscribe from the newsletter"],
+      "answer": "Click the \"Unsubscribe\" link at the bottom of any of our emails, or turn off marketing emails in My Account → Notifications. Order updates will still be sent."
+    },
+    {
+      "id": "contact_support",
+      "category": "Support",
+      "question": "How can I contact customer support?",
+      "alternatives": ["I want to talk to a human", "What is your phone number?", "What is your support email?", "Speak to an agent"],
+      "answer": "You can reach us by live chat on the website, by email at support@shopease.example, or by phone at +1 (555) 010-2030. We usually reply to emails within 24 hours."
+    },
+    {
+      "id": "support_hours",
+      "category": "Support",
+      "question": "What are your customer support hours?",
+      "alternatives": ["When is customer service open?", "Are you open on weekends?", "Opening hours"],
+      "answer": "Our support team is available every day from 9 AM to 9 PM, including weekends. Live chat outside these hours is answered by this assistant."
+    },
+    {
+      "id": "physical_store",
+      "category": "Support",
+      "question": "Do you have a physical store?",
+      "alternatives": ["Can I visit your shop?", "Where is your store located?", "Do you have an offline shop?"],
+      "answer": "ShopEase is an online-only store, which helps us keep prices low. You can, however, pick up orders from 200+ partner pickup points — choose \"Pickup point\" at checkout."
+    }
+  ],
+  "smalltalk": [
+    {
+      "id": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "hello there", "hey bot"],
+      "answer": "Hello! 👋 I'm the ShopEase assistant. Ask me anything about orders, shipping, returns, payments or your account."
+    },
+    {
+      "id": "thanks",
+      "patterns": ["thanks", "thank you", "thanks a lot", "that helps", "great thank you"],
+      "answer": "You're welcome! Is there anything else I can help you with?"
+    },
+    {
+      "id": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "see you later", "that's all"],
+      "answer": "Goodbye! Have a great day and happy shopping. 🛍️"
+    },
+    {
+      "id": "bot_identity",
+      "patterns": ["who are you", "are you a bot", "are you human", "what is your name"],
+      "answer": "I'm an FAQ chatbot. I use NLP (NLTK preprocessing + TF-IDF cosine similarity) to find the FAQ that best matches your question."
+    },
+    {
+      "id": "help",
+      "patterns": ["help", "what can you do", "what can I ask", "I need help"],
+      "answer": "I can answer questions about placing and tracking orders, shipping, payments, returns & refunds, products and your account. Try: \"How long does shipping take?\""
+    }
+  ]
+}
